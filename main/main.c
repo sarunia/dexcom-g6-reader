@@ -18,7 +18,7 @@
 RTC_DATA_ATTR int boot_count = 0;
 RTC_DATA_ATTR int error_count = 0;
 static const char *tag = "[Dexcom-G6-Reader][main]";
-const char *transmitter_id = "812345";
+const char *transmitter_id = "8LF884";
 
 int dgr_gap_event(struct ble_gap_event *event, void *arg);
 
